@@ -1,0 +1,36 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/*utilities*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:768px){
+    .container{
+        width: 95%;
+    }
+}
+/*header*/
+.site-init{
+    background-image: url(/img/_21f48bb4-a6e5-4a3d-977f-6f5149c0c934.jpg);
+    height: 40vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
