@@ -12,8 +12,10 @@ let petSalon ={
     },
     pets:[] //array
 }
+let counter=0;
+
 //object constructor (function)
-function Pet(name,age,gender,breed,service){
+function Pet(name,age,gender,breed,service,price){
     this.name=name;
     this.age=age;
     this.gender=gender;
@@ -47,10 +49,10 @@ function register(){
     }
 }
 function getServicePrice(serviceDescription){
-    let service = readArray();//get services list from LS
+    let services = readArray();//get services list from LS
     let price;
-    for(let i=0;i<service.length;i++){//traveling the array
-        let service = service[i];
+    for(let i=0;i<services.length;i++){//traveling the array
+        let service = services[i];
         if(service.description==serviceDescription){ // find the description
             price=service.price; //assign the price
         }

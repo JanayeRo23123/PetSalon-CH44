@@ -20,17 +20,42 @@ a{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    
+    
+    
 }
-@media(max-width:768px){
-    .container{
-        width: 95%;
-    }
+
+.register-btn{
+    border: 1px solid;
+    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    margin-left: 43%;
 }
+
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    margin: left;
+}
+
+
+#txtGender{
+    width: 178px;
+}
+
 /*header*/
 .site-init{
     background-image: url(/img/_21f48bb4-a6e5-4a3d-977f-6f5149c0c934.jpg);
     height: 40vh;
     background-size: cover;
-    color: white;
+    color: aquamarine;
     text-align: center;
+}
+
+
+/*Service*/
+.site-init{
+    
 }
